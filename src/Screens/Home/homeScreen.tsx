@@ -9,7 +9,9 @@ export default function HomeScreen() {
   return (
     <View style={styles.appContainer}>
         <Image source={bat} style = {styles.logoContainer}></Image>
-        <Text style={styles.buttonContainer}>Clique para gerar BAT-SINAL</Text>
+        <View style={styles.buttonContainer}>
+            <Text>Clique para gerar BAT-SINAL</Text>
+        </View>
     </View>
   )
 }
