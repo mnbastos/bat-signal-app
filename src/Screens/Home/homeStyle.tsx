@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#4D4D4D'
       },
       buttonContainer:{
-        width:'20%',
+        width:'80%',
         alignItems:'center',
         flexDirection:'column',
         justifyContent:'center',
@@ -27,5 +27,6 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white',
         alignItems: 'center',
         justifyContent: 'center',
+        padding:20
       }
 });
